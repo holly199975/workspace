@@ -1,0 +1,15 @@
+package exam;
+
+public class Niner {
+
+	public static void main(String[] args) {
+		for(int i=1; i<=5;i++){
+			for(int n=2;n<=5;n++){
+				System.out.print(n+"*"+i+"="+(n*i)+"\t");
+			}
+			System.out.println();
+		}
+		
+	}
+
+}
