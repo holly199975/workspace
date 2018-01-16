@@ -1,0 +1,10 @@
+package exam;
+
+public class VendingMachine {
+
+	public static void main(String[] args) {
+		Drink[] drinks = new Drink[8];
+		
+	}
+
+}

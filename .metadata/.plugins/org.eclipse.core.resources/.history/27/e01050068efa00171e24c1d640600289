@@ -1,0 +1,18 @@
+package exam;
+
+public class VendingMachine {
+
+	public static void main(String[] args) {
+		Drink[] drinks = new Drink[8];
+		drinks[0] = new Drink("a",10);
+		drinks[1] = new Drink("b",15);
+		drinks[2] = new Drink("c",10);
+		drinks[3] = new Drink("d",18);
+		drinks[4] = new Drink("e",10);
+		drinks[5] = new Drink("f",20);
+		drinks[6] = new Drink("g",15);
+		drinks[7] = new Drink("h",18);
+		
+	}
+
+}
