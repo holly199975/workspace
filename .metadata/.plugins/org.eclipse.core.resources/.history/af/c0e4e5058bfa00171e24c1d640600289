@@ -1,0 +1,17 @@
+package exam;
+
+public class Manager extends Employee{
+	public Manager(String name,int salary){
+		this.name = name;
+		this.salary = salary;
+	}
+	
+	public void print(){
+		 salary = salary+5000;
+		System.out.print(name + salary);
+	}
+	public Manager(){
+		
+	}
+
+}

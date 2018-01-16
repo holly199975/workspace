@@ -1,0 +1,11 @@
+package exam;
+
+public class Director extends Manager {
+	int bonus;
+	public Director(String name,int salary,int bonus ){
+		this.name = name;
+		this.salary = salary;
+		this.bonus = bonus;
+	}
+	
+}

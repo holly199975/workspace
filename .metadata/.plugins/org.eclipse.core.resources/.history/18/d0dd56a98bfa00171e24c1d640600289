@@ -1,0 +1,15 @@
+package exam;
+
+public class Director extends Manager {
+	int bonus;
+	public Director(String name,int salary,int bonus ){
+		this.name = name;
+		this.salary = salary;
+		this.bonus = bonus;
+	}
+	@Override
+	public void print(){
+		int total = salary+5000;
+		System.out.println(name +" "+ total +" "+ (bonus));
+	}
+}

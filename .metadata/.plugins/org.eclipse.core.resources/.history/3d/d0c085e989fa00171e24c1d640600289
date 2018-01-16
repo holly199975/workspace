@@ -1,0 +1,9 @@
+package exam;
+
+public class Manager extends Employee{
+	public Manager(String name,int salary){
+		this.name = name;
+		this.salary = salary;
+	}
+
+}
